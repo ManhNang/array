@@ -1,0 +1,14 @@
+console.log(bookSeat(2, 1))
+Log: Bạn đã đặt ghế thành công
+
+console.log(bookSeat(2, 1))
+Log: Ghế đã bị người khác đặt
+
+console.log(bookSeat(-1, 1))
+Log: Không tìm thấy ghế
+
+console.log(bookSeat(3, 4))
+Log: Không tìm thấy ghế
+
+console.log(bookSeat(2, "abc"))
+Không tìm thấy ghế
