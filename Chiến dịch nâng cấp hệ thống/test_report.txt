@@ -1,0 +1,14 @@
+console.log(bookSeat(0,0))
+Đã đặt ghế Normal thành công với giá 50000
+
+console.log(bookSeat(0,1))
+Ghế đã có người đặt!
+
+console.log(bookSeat(-1,0))
+Không tìm thấy ghế!
+
+console.log(bookSeat(10,0))
+Không tìm thấy ghế!
+
+console.log(bookSeat(12,-5))
+Không tìm thấy ghế!
