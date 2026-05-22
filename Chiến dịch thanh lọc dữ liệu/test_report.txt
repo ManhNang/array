@@ -1,0 +1,39 @@
+const rawUsers = [
+    {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "role": "VIP",
+        "email": "vana@example.com",
+        "totalSpent": 500000
+    },
+    {
+        "id": 2,
+        "name": "Trần Thị B",
+        "role": "vip",
+        "totalSpent": 250000
+    },
+    {
+        "id": 3,
+        "name": "Lê Văn C",
+        "role": "VIP",
+        "email": "vanc@example.com",
+        "totalSpent": -100000
+    },
+    {
+        "id": 4,
+        "name": "Phạm Văn D",
+        "role": "VIP",
+        "email": "vand@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Hoàng Thị E",
+        "role": "VIP",
+        "email": "",
+        "totalSpent": null
+    }
+];
+
+Log:
+Emails: vana@example.com, vanc@example.com, vand@example.com,
+Total Revenue: 400000
