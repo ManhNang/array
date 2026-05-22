@@ -11,7 +11,7 @@ const  ticketPrices = [
 ]
 
 // Sơ đồ ghế lưu bằng biến rời rạc. 0: Trống, 1: Đã đặt
-const seatMap = [
+let seatMap = [
     [0, 1, 0],
     [0, 0, 0],
     [1, 0, 1]
