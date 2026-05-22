@@ -3,7 +3,9 @@ let array = [];
 const result = document.getElementById("result");
 
 function add_element_to_array(){
-    array[x] = document.getElementById("txtValue").value;
+     let element = document.getElementById("txtValue").value;
+     array[x] = element;
+    alert("Đã thêm phần tử " + element + " ở vị trí thứ " + x);
     x++;
     document.getElementById("txtValue").value = "";
 }
