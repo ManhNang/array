@@ -66,7 +66,7 @@ function mergeSortIterative(arr) {
     return work[0];
 }
 // NHIỆM VỤ 3: Cài đặt thuật toán Binary Search để tìm kiếm sản phẩm theo giá hoặc ID.
-function binarySearch(arr, targetPrice){
+function searchAndSortOptimized(arr, targetPrice){
     const sortArr = mergeSortIterative(flattenArray(arr));
     console.time("MyProcess");
     let l = 0;
@@ -104,7 +104,7 @@ function binarySearch(arr, targetPrice){
 // NHIỆM VỤ 4: Dùng console.time() đo lường và so sánh hiệu năng với Legacy Code.
 
 console.log(searchAndSortLegacy(nestedProducts, 50));
-console.log(binarySearch(nestedProducts, 50));
+console.log(searchAndSortOptimized(nestedProducts, 50));
 
 function generateNestedProducts() {
   
